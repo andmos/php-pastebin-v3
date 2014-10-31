@@ -1,0 +1,4 @@
+#! /bin/bash
+sudo docker run -p 3306:3306 --name phppastebindb -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=phppastebin -t -d mysql
+sudo docker run -p 8080:80 -v path/to/php-pastebin-v3/:/var/www/ --link phppastebindb:phppastebindb -d -t dips/phppastebin
+
