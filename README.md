@@ -1,5 +1,6 @@
 ![Hook](http://a.fsdn.com/allura/p/php-pastebin/icon) Php-pastebin V3
 =============
+Note: This is my implementation of Php-Pastebin. I have added a Docker-container for it to make deployment easy.
 
 * * *
 
